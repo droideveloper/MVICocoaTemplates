@@ -2,10 +2,8 @@
 
 import Foundation
 import MVICocoa
-import RxSwift
-import RxCocoa
 
-public class ___FILEBASENAMEASIDENTIFIER___: BaseViewController<___VARIABLE_modelClass___, ___VARIABLE_viewModelClass___> {
+class ___FILEBASENAMEASIDENTIFIER___: BaseViewController<___VARIABLE_modelClass___, ___VARIABLE_viewModelClass___> {
 
   override func setUp() {
     // TODO setup view here aka didLoad

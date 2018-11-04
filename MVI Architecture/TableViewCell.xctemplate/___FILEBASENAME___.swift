@@ -4,7 +4,7 @@ import Foundation
 import UIKit
 import MVICocoa
 
-public class ___FILEBASENAMEASIDENTIFIER___: UITableViewCell {
+class ___FILEBASENAMEASIDENTIFIER___: UITableViewCell {
 
   private let disposeBag = CompositeDisposeBag()
 

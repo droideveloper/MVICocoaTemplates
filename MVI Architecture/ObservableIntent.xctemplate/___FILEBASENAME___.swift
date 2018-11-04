@@ -4,13 +4,13 @@ import Foundation
 import MVICocoa
 import RxSwift
 
-public class ___FILEBASENAMEASIDENTIFIER___: ObservableIntent<___VARIABLE_modelClass___> {
+class ___FILEBASENAMEASIDENTIFIER___: ObservableIntent<___VARIABLE_modelClass___> {
 
-  public init() {
+  init() {
     // TODO provide dependency
   }
 
-  public override func invoke() -> Observable<Reducer<___VARIABLE_modelClass___>> {
+  override func invoke() -> Observable<Reducer<___VARIABLE_modelClass___>> {
     return Observable.never() // TODO implement your repository logic here
       .subscribeOn(MainScheduler.asyncInstance)
       .delay(0.5, scheduler: MainScheduler.asyncInstance)

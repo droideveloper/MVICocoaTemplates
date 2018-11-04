@@ -3,7 +3,7 @@
 import Foundation
 import MVICocoa
 
-public class ___FILEBASENAMEASIDENTIFIER___: BaseTableViewController<___VARIABLE_modelClass___, ___VARIABLE_viewModelClass___> {
+class ___FILEBASENAMEASIDENTIFIER___: BaseTableViewController<___VARIABLE_modelClass___, ___VARIABLE_viewModelClass___> {
 
   private var dataSet = ObservableList<___VARIABLE_entityClass___>()
   private lazy var dataSource = {

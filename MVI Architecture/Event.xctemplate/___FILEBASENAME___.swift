@@ -4,9 +4,9 @@ import Foundation
 import MVICocoa
 import Swinject
 
-public class ___FILEBASENAMEASIDENTIFIER___: Event {
+class ___FILEBASENAMEASIDENTIFIER___: Event {
 
-  public init() {
+  init() {
     // TODO provide dependency
   }
 
