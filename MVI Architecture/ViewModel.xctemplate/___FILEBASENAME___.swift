@@ -4,11 +4,11 @@ import Foundation
 import MVICocoa
 import RxSwift
 
-public class ___FILEBASENAMEASIDENTIFIER___: BaseViewModel<___VARIABLE_modelClass___> {
+class ___FILEBASENAMEASIDENTIFIER___: BaseViewModel<___VARIABLE_modelClass___> {
   
   private weak var view: ___VARIABLE_controllerClass___?
 
-  public init(view: ___VARIABLE_controllerClass___) {
+  init(view: ___VARIABLE_controllerClass___) {
     self.view = view
   }
 
