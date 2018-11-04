@@ -9,7 +9,7 @@
 	<key>Summary</key>
 	<string>An empty Event file</string>
 	<key>SortOrder</key>
-	<string>35</string>
+	<string>6</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>

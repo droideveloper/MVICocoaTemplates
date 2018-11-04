@@ -9,7 +9,7 @@
 	<key>Summary</key>
 	<string>A MVI View Model class</string>
 	<key>SortOrder</key>
-	<string>4</string>
+	<string>9</string>
 	<key>DefaultCompletionName</key>
 	<string>MyViewModel</string>
 	<key>AllowedTypes</key>
