@@ -9,7 +9,7 @@
 	<key>Summary</key>
 	<string>An empty Entity file</string>
 	<key>SortOrder</key>
-	<string>31</string>
+	<string>10</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>

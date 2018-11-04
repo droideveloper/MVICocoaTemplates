@@ -11,7 +11,7 @@
 	<key>DefaultCompletionName</key>
 	<string>MyDataSource</string>
 	<key>SortOrder</key>
-	<string>10</string>
+	<string>8</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>

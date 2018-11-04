@@ -11,7 +11,7 @@
 	<key>DefaultCompletionName</key>
 	<string>MyModel</string>
 	<key>SortOrder</key>
-	<string>30</string>
+	<string>11</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
