@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>A MVI BaseTableViewController class.</string>
+	<key>Summary</key>
+	<string>A MVI BaseTableViewViewController class</string>
+	<key>DefaultCompletionName</key>
+	<string>MyViewController</string>
+	<key>SortOrder</key>
+	<string>2</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Class:</string>
+			<key>Description</key>
+			<string>The name of the class to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>modelClass</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Model of:</string>
+			<key>Description</key>
+			<string>What class to be model in the MyViewController</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>viewModelClass</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>ViewModel of:</string>
+			<key>Description</key>
+			<string>What class to be viewModel in the MyViewController</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>entityClass</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Entity of:</string>
+			<key>Description</key>
+			<string>What class to be entity in the MyViewController</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+			<dict>
+			<key>Identifier</key>
+			<string>dataSourceClass</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>DataSource of:</string>
+			<key>Description</key>
+			<string>What class to be dataSource in the MyViewController</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>	
+	</array>
+</dict>
+</plist>
