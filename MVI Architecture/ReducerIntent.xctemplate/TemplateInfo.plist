@@ -54,7 +54,7 @@
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Entity of:</string>
+			<string>SyncState of:</string>
 			<key>Description</key>
 			<string>What class to be syncState in the intent</string>
 			<key>Type</key>
