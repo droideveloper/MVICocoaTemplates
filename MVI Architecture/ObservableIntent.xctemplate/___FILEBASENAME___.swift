@@ -24,10 +24,10 @@ class ___FILEBASENAMEASIDENTIFIER___: ObservableIntent<___VARIABLE_modelClass___
   }
 
   private func bySuccess(_ data: ___VARIABLE_entityClass___) -> Reducer<___VARIABLE_modelClass___> {
-    return { model in model.copy(state: idle, data: ___VARIABLE_entityClass___) }
+    return { model in model.copy(state: idle, data: data) }
   }
 
-  priate func byFailure(_ error: Error) -> Observable<Reducer<___VARIABLE_modelClass___>> {
+  private func byFailure(_ error: Error) -> Observable<Reducer<___VARIABLE_modelClass___>> {
     return Observable.of(
       { model in model.copy(state: Failure(error)) },
       { model in model.copy(state: idle) })
