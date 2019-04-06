@@ -5,13 +5,13 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
-	<string>A MVI Data Source class.</string>
+	<string>A MVI UICollectionViewCell class.</string>
 	<key>Summary</key>
-	<string>A MVI Data Source class</string>
+	<string>A MVI UICollectionViewCell class</string>
 	<key>DefaultCompletionName</key>
-	<string>MyDataSource</string>
+	<string>MyCell</string>
 	<key>SortOrder</key>
-	<string>8</string>
+	<string>7</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
@@ -42,7 +42,7 @@
 			<key>Name</key>
 			<string>Entity of:</string>
 			<key>Description</key>
-			<string>What class to be entity in the data source</string>
+			<string>What class to be entity in the cell</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>NotPersisted</key>

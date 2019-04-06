@@ -4,13 +4,13 @@ import Foundation
 import UIKit
 import MVICocoa
 
-class ___FILEBASENAMEASIDENTIFIER___: TableDataSource<___VARIABLE_entityClass___> {
+class ___FILEBASENAMEASIDENTIFIER___: CollectionDataSource<___VARIABLE_entityClass___> {
 
   override func identfierAt(_ indexPath: IndexPath) -> String {
 		return String.empty
 	}
 	
-	override func bind(_ cell: UITableViewCell, _ item: ___VARIABLE_entityClass___) {
+	override func bind(_ cell: UICollectionViewCell, _ item: ___VARIABLE_entityClass___) {
 		// override this
 	}
 }
