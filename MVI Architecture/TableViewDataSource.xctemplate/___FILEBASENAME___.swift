@@ -6,7 +6,7 @@ import MVICocoa
 
 class ___FILEBASENAMEASIDENTIFIER___: TableDataSource<___VARIABLE_entityClass___> {
 
-  override func identfierAt(_ indexPath: IndexPath) -> String {
+  override func identifierAt(_ indexPath: IndexPath) -> String {
 		return String.empty
 	}
 	
