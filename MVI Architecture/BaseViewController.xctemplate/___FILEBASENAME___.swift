@@ -15,6 +15,10 @@ class ___FILEBASENAMEASIDENTIFIER___: BaseViewController<___VARIABLE_modelClass_
   }
 
   override func render(model: ___VARIABLE_modelClass___) {
-    // TODO do render logic here
+    switch model.state {
+      case .idle: break;
+      case .failure(let error): break;
+      case .operation(let type, _): break
+    }
   }
 }
