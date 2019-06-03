@@ -25,7 +25,11 @@ class ___FILEBASENAMEASIDENTIFIER___: BaseCollectionViewController<___VARIABLE_m
   }
 
   override func render(model: ___VARIABLE_modelClass___) {
-    // TODO do render logic here
+    switch model.state {
+      case .idle: break;
+      case .failure(let error): break;
+      case .operation(let type, _): break
+    }
   }
 
   override func viewWillDisappear(_ animated: Bool) {

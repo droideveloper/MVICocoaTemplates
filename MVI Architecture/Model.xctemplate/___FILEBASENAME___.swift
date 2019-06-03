@@ -6,7 +6,7 @@ import MVICocoa
 public struct ___FILEBASENAMEASIDENTIFIER___: Model {
   public typealias Entity = ___VARIABLE_entityClass___
 
-  public static let empty = ___FILEBASENAMEASIDENTIFIER___(state: idle, data: Entity.empty)
+  public static let empty = ___FILEBASENAMEASIDENTIFIER___(state: .idle, data: Entity.empty)
 
   public var state: SyncState
   public var data: ___VARIABLE_entityClass___

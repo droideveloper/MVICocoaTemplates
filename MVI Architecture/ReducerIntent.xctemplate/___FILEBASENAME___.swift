@@ -10,6 +10,6 @@ class ___FILEBASENAMEASIDENTIFIER___: ReducerIntent<___VARIABLE_modelClass___> {
   }
 
   override func invoke() -> Reducer<___VARIABLE_modelClass___> {
-    return { model in model.copy(state: ___VARIABLE_syncStateClass___) }
+    return { o in o.copy(state: ___VARIABLE_syncStateClass___) }
   }
 }
