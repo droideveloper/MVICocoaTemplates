@@ -32,8 +32,8 @@ class ___FILEBASENAMEASIDENTIFIER___: BaseCollectionViewController<___VARIABLE_m
     }
   }
 
-  override func viewWillDisappear(_ animated: Bool) {
-    dataSet.unregister(collectionView)
-    super.viewWillDisappear(animated)
-  }
+	override func detach() {
+		dataSet.unregister(tableView)
+		super.detach()
+	}
 }

@@ -32,8 +32,8 @@ class ___FILEBASENAMEASIDENTIFIER___: BaseTableViewController<___VARIABLE_modelC
     }
   }
 
-  override func viewWillDisappear(_ animated: Bool) {
-    dataSet.unregister(tableView)
-    super.viewWillDisappear(animated)
-  }
+	override func detach() {
+		dataSet.unregister(tableView)
+		super.detach()
+	}
 }
